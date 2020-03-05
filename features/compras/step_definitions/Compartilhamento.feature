@@ -1,7 +1,9 @@
 #language:pt
 
   Funcionalidade: Compartilhamento
-
+  Eu como usuario   
+  Quero acessar a page automationpractice 
+  Para validar o compratilhamento
 
 Cenario: facebook 
    Dado que estou logado na página
@@ -12,9 +14,6 @@ Cenario: facebook
    E clico em share
    Entao Tenho o anúncio compartilhado em minha page do facebook 
 
-
-
-  Funcionalidade: PDF
 
 
 Cenario: Clicar em salvar
