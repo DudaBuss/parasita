@@ -11,13 +11,9 @@ Cenario:  organizar e comprar vestidos
 
 Cenario: Add 3 produtos ao best seller 
    Dado que estou na página
-   E rolo até o fim da pagina e clico em best seller 
+   Quando rolo até o fim da pagina e clico em best seller 
    E e clico em add to cart 
-   Quando tenho o produto no meu carrinho 
+   E tenho o produto no meu carrinho 
    Entao tiro o produto e deixo o carrinho vazio 
 
 
-Cenario: 
-  Dado 
-  Quando 
-  Entao 

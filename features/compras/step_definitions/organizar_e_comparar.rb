@@ -15,11 +15,13 @@ end
 Quando("escolho os produtos que desejo comprar e clico em add to compare") do
 
 find(:xpath, '//*[@id="list"]').click
-find(:xpath, '//*[@id="center_column"]/ul/li[1]/div/div/div[3]/div/div[3]/div[2]/a')
-find(:xpath, 'ss'
+find(:xpath, '//*[@id="center_column"]/ul/li[1]/div/div/div[3]/div/div[3]/div[2]/a').click
+find(:xpath, '//*[@id="center_column"]/div[2]/div[2]/form/button/span').click
  
 end
 
 Entao("tenho lista de comparação de produtos") do
  
+find(:xpath, '//*[@id="center_column"]/h1')
+
 end
