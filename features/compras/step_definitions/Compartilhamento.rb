@@ -8,18 +8,15 @@ Quando("clico em specials") do
 end
 
 Quando("Clico em imagem do vestido do Printed Summer") do
-  find(:xpath, '//*[@id="center_column"]/ul/li[1]/div/div/div[1]/div/a[1]/img').click
+  find(:xpath, '//*[@id="center_column"]/ul/li[2]/div/div[2]/h5/a').click
 end
 
 Quando("abre página de venda com botão share do facebook") do
   find(:xpath, '//*[@id="center_column"]/div/div/div[3]/p[7]/button[2]').click
 end
   
-Quando("clico em share") do
+Entao("clico em share") do
   find(:xpath, '//*[@id="columns"]/div[1]').click
 end
 
-Entao("Tenho o anúncio compartilhado em minha page do facebook") do
-  find(:xpath, '//*[@id="u_0_26"]')
-end
 

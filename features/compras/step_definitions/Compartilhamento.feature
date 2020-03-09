@@ -8,18 +8,10 @@ Funcionalidade: Compartilhamento
    Cenario: facebook 
       Dado que estou logado na página
       Quando clico em specials
-         E Clico em imagem
+         E Clico em imagem do vestido do Printed Summer
          E abre página de venda com botão share do facebook
-         E clico em share
-      Entao Tenho o anúncio compartilhado em minha page do facebook 
-
-
-
-
-
-
-
-
+      Entao clico em share
+      
 
 
 
