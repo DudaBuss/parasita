@@ -9,7 +9,7 @@ Quando("clico em compare, na opção view e em list") do
  
  find(:xpath, '//*[@id="center_column"]/div[2]/div[2]/form').click
  
- 
+
 end
 
 Quando("escolho os produtos que desejo comprar e clico em add to compare") do
