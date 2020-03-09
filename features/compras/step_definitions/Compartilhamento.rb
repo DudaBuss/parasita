@@ -1,5 +1,9 @@
 Dado("que estou logado na página") do
-  find(:xpath, '//*[@id="header"]/div[2]/div/div/nav/div[2]/a')
+find(:xpath, '//*[@id="header"]/div[2]/div/div/nav/div[1]/a')
+find(:xpath, '//*[@id="header"]/div[2]/div/div/nav/div[1]/a').click
+find(:xpath, '//*[@id="email"]').set 'maxence@inserver.tk'
+find(:xpath, '//*[@id="passwd"]').set '99GjYHeM'
+find(:xpath, '//*[@id="header"]/div[2]/div/div/nav/div[2]/a')
 end
 
 Quando("clico em specials") do

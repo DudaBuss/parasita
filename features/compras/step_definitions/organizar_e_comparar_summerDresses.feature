@@ -2,6 +2,8 @@
 
   Funcionalidade: Produtos
 
+@Organizar
+
 Cenario:  organizar e comprar vestidos 
    Dado que estou na page de summer dresses
    Quando clico em compare, na opção view e em list
