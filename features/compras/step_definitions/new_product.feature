@@ -1,8 +1,7 @@
 #language:pt
 
 @Testar
-
-  Funcionalidade: Testar página
+Funcionalidade: Testar página
 
 Cenario:  page new product
  
