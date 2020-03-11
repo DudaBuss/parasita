@@ -1,5 +1,6 @@
 Dado("que estou na page de summer dresses") do
-  
+ Capybara.visit 'http://automationpractice.com/index.php'
+  find(:xpath, '//*[@id="block_top_menu"]/ul/li[2]/a').click
   find(:xpath, '//*[@id="block_top_menu"]/ul/li[2]/a').click
   find(:xpath, '//*[@id="categories_block_left"]/div/ul/li[3]/a').click
  
@@ -25,3 +26,4 @@ Entao("tenho lista de comparação de produtos") do
 find(:xpath, '//*[@id="center_column"]/h1')
 
 end
+

@@ -11,11 +11,3 @@ Cenario:  organizar e comprar vestidos
    Entao  tenho lista de comparação de produtos
 
 
-Cenario: Add 3 produtos ao best seller 
-   Dado que estou na página
-   Quando rolo até o fim da pagina e clico em best seller 
-      E e clico em add to cart 
-      E tenho o produto no meu carrinho 
-   Entao tiro o produto e deixo o carrinho vazio 
-
-
