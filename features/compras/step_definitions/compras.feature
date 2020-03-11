@@ -19,9 +19,3 @@ Funcionalidade: Compras
        
     
 
-@validacao
-    Cenario: Validar endereço de entrega
-      Dado que estou na página
-      Quando clico em detalhes
-      Entao vejo o endereço que está para chegar o meu produto 
-    
