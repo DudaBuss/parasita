@@ -1,9 +1,11 @@
 Dado("que estou logado na página") do
+  @Compartilhamento = Compartilhamento.new
+  @Compartilhamento.load
 find(:xpath, '//*[@id="header"]/div[2]/div/div/nav/div[1]/a')
 find(:xpath, '//*[@id="header"]/div[2]/div/div/nav/div[1]/a').click
-find(:xpath, '//*[@id="email"]').set 'maxence@inserver.tk'
-find(:xpath, '//*[@id="passwd"]').set '99GjYHeM'
-find(:xpath, '//*[@id="header"]/div[2]/div/div/nav/div[2]/a')
+@Compartilhamento.email.set 'maxence@inserver.tk'
+@Compartilhamento.password.set '99GjYHeM'
+@Compartilhamento.loginbtn.click
 end
 
 Quando("clico em specials") do
