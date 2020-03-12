@@ -1,14 +1,18 @@
 Dado("que estou na page de summer dresses") do
- Capybara.visit 'http://automationpractice.com/index.php'
-  find(:xpath, '//*[@id="block_top_menu"]/ul/li[2]/a').click
-  find(:xpath, '//*[@id="block_top_menu"]/ul/li[2]/a').click
-  find(:xpath, '//*[@id="categories_block_left"]/div/ul/li[3]/a').click
+ Organizar = Organizar.new
+ Organizar.load
+  Capybara.visit 'http://automationpractice.com/index.php'
+  @Organizar.dress.click
+  @Organizar.summerdress.click
  
 end
 
 Quando("clico em compare, na opção view e em list") do
  
+  #@Organizar.list.click
+ 
  find(:xpath, '//*[@id="center_column"]/div[2]/div[2]/form').click
+ #@Organizar.compare.click 
  find(:xpath, '//*[@id="list"]').click 
 
 end

@@ -5,7 +5,7 @@
   require 'capybara/cucumber'
   require 'site_prism'
   require 'rest-client'
-  require 'json'
+  #require 'json'
   #require 'page-object'
   #require 'data_magic'
 

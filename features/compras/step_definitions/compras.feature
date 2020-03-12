@@ -6,7 +6,7 @@ Funcionalidade: Compras
 @Compra
     Cenario: Compra
       Dado que estou logado
-      Quando clico em woman
+      Quando clico em Dress
         E clico no produto Printed Summer Dress
         E clico em add to cart
         E clico no botão Proceed to checkout1

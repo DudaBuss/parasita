@@ -1,24 +1,24 @@
 Dado("que estou logado na página") do
   @Compartilhamento = Compartilhamento.new
   @Compartilhamento.load
-find(:xpath, '//*[@id="header"]/div[2]/div/div/nav/div[1]/a')
-find(:xpath, '//*[@id="header"]/div[2]/div/div/nav/div[1]/a').click
-@Compartilhamento.email.set 'maxence@inserver.tk'
-@Compartilhamento.password.set '99GjYHeM'
-@Compartilhamento.loginbtn.click
+  @Compartilhamento.singin
+  @Compartilhamento.singin.click
+  @Compartilhamento.email.set 'maxence@inserver.tk'
+  @Compartilhamento.password.set '99GjYHeM'
+  @Compartilhamento.loginbtn.click
 end
 
 Quando("clico em specials") do
   #find(:json, 'document.querySelector("#block_various_links_footer > ul > li:nth-child(1) > a")')
-  find(:xpath, '//*[@id="block_various_links_footer"]/ul/li[1]/a').click
+  @Compartilhamento.specials.click
 end
 
 Quando("Clico em imagem do vestido do Printed Summer") do
-  find(:xpath, '//*[@id="center_column"]/ul/li[2]/div/div[2]/h5/a').click
+  @Compartilhamento.imgvestido.click
 end
 
 Quando("abre página de venda com botão share do facebook") do
-  find(:xpath, '//*[@id="center_column"]/div/div/div[3]/p[7]/button[2]').click
+  @Compartilhamento.shareface.click
 end
   
 Entao("clico em share") do
